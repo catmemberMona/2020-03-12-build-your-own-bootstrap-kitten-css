@@ -1,1 +1,1 @@
-import "byob-css";
+import 'byob-css';
