@@ -2,6 +2,11 @@
 @import "./variables";
 @import "./calculated";
 
+
+.layoutPlanning {
+  border: 1px solid black
+}
+
 html {
   font-size: $font-size-baseline;
 }
