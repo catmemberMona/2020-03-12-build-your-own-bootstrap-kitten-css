@@ -1,3 +1,17 @@
 @import "./variables";
 
 $color-headers: $color-primary;
+
+// examples btn-primary, btn-secondary
+@each $name,$color in $theme-colors {
+  .btn-backgroundColor- {
+    &#{$name}.btn {
+      background-color: $color;
+      @if $name == 'light' or $name == 'muted' {
+        color: black;
+      } @else {
+        color: white;
+      }
+    }
+  }
+}
