@@ -38,12 +38,12 @@ This project uses `yarn workspaces` to stitch two separate JS projects together.
 
 # Sources that I learned from: 
 
-https://geekyants.com/blog/building-your-own-css-framework-373\ 
-https://developer.mozilla.org/\
-https://www.geeksforgeeks.org/how-to-select-all-child-elements-recursively-using-css/\
-https://sass-lang.com/documentation/at-rules/control/if\
-https://www.youtube.com/watch?v=Zz6eOVaaelI\
-https://www.youtube.com/watch?v=XanhwddQ-PM\
-https://www.youtube.com/watch?v=QHRTiU2a3fg&t=304s\
-https://onedebos.wordpress.com/2019/08/01/how-to-setup-sass-in-vscode/\
-https://css-tricks.com/having-a-little-fun-with-custom-focus-styles/
+- https://geekyants.com/blog/building-your-own-css-framework-373\ 
+- https://developer.mozilla.org/\
+- https://www.geeksforgeeks.org/how-to-select-all-child-elements-recursively-using-css/\
+- https://sass-lang.com/documentation/at-rules/control/if\
+- https://www.youtube.com/watch?v=Zz6eOVaaelI\
+- https://www.youtube.com/watch?v=XanhwddQ-PM\
+- https://www.youtube.com/watch?v=QHRTiU2a3fg&t=304s\
+- https://onedebos.wordpress.com/2019/08/01/how-to-setup-sass-in-vscode/\
+- https://css-tricks.com/having-a-little-fun-with-custom-focus-styles/
