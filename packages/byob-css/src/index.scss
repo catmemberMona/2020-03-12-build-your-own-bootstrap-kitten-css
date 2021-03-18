@@ -12,6 +12,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   flex: 1;
   flex-wrap: wrap;
 }
@@ -23,20 +24,18 @@ body * {
   max-width: 100%;
   font-family: $font-content;
   line-height: 1.3em;
-
-  div {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 100%;  
-    min-width: 100px;
-
- 
-  }
-  
 }
+
+div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;  
+  min-width: 100px;
+}
+
 
 .addHelperBorders * {
     border: 1px solid black;
@@ -150,4 +149,8 @@ h1, h2, h3, h4, h5, h6 {
 a {
   padding: 0;
   margin: 0;  
+}
+
+.seperation-horizontal-line {
+  border-bottom: 1px lightgrey solid;
 }
