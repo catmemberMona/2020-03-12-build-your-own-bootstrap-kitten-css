@@ -1,4 +1,15 @@
-# BYOB.css
+# MINTBEAN CHALLENGE
+
+## About the challenge
+
+This is a weekly learnathon designed by MintBean for those that are new and/or those that want to improve their web development skills.\
+
+This weeks challenge is to create a css framework similar to bootstrap.\
+
+https://www.mintbean.io/meets/4b9cd41c-4a27-4c08-a493-3095f9fe2b20?template=meet\
+
+
+## BYOB.css
 
 BYOB.css is an starter CSS framework built for [Mintbean Learnathon #82 - Build Your Own Bootstrap](https://mintbean.io/meets/4b9cd41c-4a27-4c08-a493-3095f9fe2b20).
 
@@ -17,10 +28,6 @@ yarn start
 
 That's it! Then you should be able to visit the project at [http://localhost:1234](http://localhost:1234).
 
-# Github Pages deployment
-
-This project is set up to deploy directly to your Github Pages. Your project will build and deploy from the `/docs` folder. [Here's the official documentation on how to set up your Github Pages.](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). To get started, you can simply fork the project.
-
 # How this project is structured
 
 This project uses `yarn workspaces` to stitch two separate JS projects together. They are:
@@ -29,8 +36,14 @@ This project uses `yarn workspaces` to stitch two separate JS projects together.
 
 - `packages/byob-css-example`, an example kitchen sink. It's VERY raw. You can start reading this project from `packages/byob-css-example/index.html`.
 
-# See the example project in action.
+# Sources that I learned from: 
 
-The live version of the sample app can be seen [here](https://mintbeanhackathons.github.io/2020-03-12-build-your-own-bootstrap-kitten-css/). It's very raw, and most projects will probably expand this seed project into a full kitchen sink.
-
-# That's it. Best of luck!
+https://geekyants.com/blog/building-your-own-css-framework-373\ 
+https://developer.mozilla.org/\
+https://www.geeksforgeeks.org/how-to-select-all-child-elements-recursively-using-css/\
+https://sass-lang.com/documentation/at-rules/control/if\
+https://www.youtube.com/watch?v=Zz6eOVaaelI\
+https://www.youtube.com/watch?v=XanhwddQ-PM\
+https://www.youtube.com/watch?v=QHRTiU2a3fg&t=304s\
+https://onedebos.wordpress.com/2019/08/01/how-to-setup-sass-in-vscode/\
+https://css-tricks.com/having-a-little-fun-with-custom-focus-styles/

@@ -1,7 +1,12 @@
-$color-primary: pink;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lora:wght@400;500&family=Montserrat&family=Open+Sans:wght@300;400&family=Roboto&family=Source+Sans+Pro&display=swap');
+
+
+$font-header: 'Source Sans Pro', sans-serif;
+$font-content: 'Open Sans', sans-serif;
+
+$color-primary: black;
 $color-secondary: green;
 
-$font-size-baseline: 18px;
 
 $theme-colors: (
    "primary" : #626ED4,
