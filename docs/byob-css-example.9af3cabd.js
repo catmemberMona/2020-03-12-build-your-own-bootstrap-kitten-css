@@ -3,6 +3,6 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"wZ+Q":[function(require,module,exports) {
 
 },{"normalize.css":"OAcZ"}],"Focm":[function(require,module,exports) {
-"use strict";require("byob-css");
-},{"byob-css":"wZ+Q"}]},{},["Focm"], null)
-//# sourceMappingURL=byob-css-example.e185fe84.js.map
+"use strict";require("byob-css"),require("./_styles");
+},{"byob-css":"wZ+Q","./_styles":"OAcZ"}]},{},["Focm"], null)
+//# sourceMappingURL=byob-css-example.9af3cabd.js.map

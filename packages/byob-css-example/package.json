@@ -9,7 +9,11 @@
     "build": "parcel build index.html --public-url '.' --no-autoinstall --out-dir ../../docs"
   },
   "dependencies": {
-    "byob-css": "*"
+    "assemble": "~0.3.11",
+    "byob-css": "*",
+    "grunt": "~0.4.0",
+    "index": "^0.4.0",
+    "styles": "^0.2.1"
   },
   "devDependencies": {
     "parcel-bundler": "1.12.3"
