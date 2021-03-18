@@ -127,11 +127,12 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   line-height: 1.5;
 
-  width: 200px;
+  width: 100px;
+  height: 100px;
   min-width: 5rem;
 
   border: 0.2px solid lightgrey;
-  border-radius: 0.25rem;
+  border-radius: 50%;
 
   color: #212529;
   background-color: transparent;
