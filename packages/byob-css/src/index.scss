@@ -73,6 +73,26 @@ html {
   font-size: $font-size-baseline;
 }
 
+p {
+  &.xlg {
+      font-size: 2rem;
+    }
+    &.lg {
+      font-size: 1.5rem;
+    };
+    &.md {
+      font-size: 1rem;
+    }
+    &.sm {
+      font-size: .75rem;
+    }
+    &.xs {
+      font-size: .5rem;
+    }
+    &.xxs {
+      font-size: .3rem;
+    }
+}
 
 // Headers 
 h1, h2, h3, h4, h5, h6 {
@@ -102,6 +122,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1rem;
   }
 }
+
+
 
 
 // Container types
