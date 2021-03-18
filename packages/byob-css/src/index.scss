@@ -3,24 +3,21 @@
 @import './calculated';
 
 
-
-  // .layoutPlanningBorders {
-  // 
-  // }
-
-  * {
-    border: 1px solid black;
-    margin: 0;
-    padding: 0;
-  }
-
-
 // Layout formating 
+
+* {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
 body * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
   font-size: 1rem;
   padding: 10px;
   max-width: 100%;
+  font-family: $font-content;
+  line-height: 1.3em;
 
   div {
     display: flex;
@@ -30,17 +27,14 @@ body * {
     flex-wrap: wrap;
     max-width: 100%;
     min-width: 400px;
+
+ 
   }
-  // p {
-  //   display: flex;
-  //   flex-direction: column;
-  //   flex: 1;
-  //   justify-content: center;
-  //   flex-wrap: wrap;
-  //   min-width: 400px;
-  // }
   
-  
+}
+
+.resetBorder * {
+  border: 0;
 }
   
 
@@ -86,6 +80,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3rem;
   padding: 10px;
   margin: 10px; 
+  font-family: $font-header;
+  font-weight: 100;
 
   &.xlg {
     font-size: 6rem;
