@@ -9,7 +9,7 @@
   // }
 
   * {
-    // border: 1px solid black;
+    border: 1px solid black;
     margin: 0;
     padding: 0;
   }
@@ -18,16 +18,32 @@
 // Layout formating 
 body * {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
   font-size: 1rem;
   padding: 10px;
-  justify-content: center;
-  flex-wrap: wrap;
   max-width: 100%;
-  min-width: 400px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width: 400px;
+  }
+  // p {
+  //   display: flex;
+  //   flex-direction: column;
+  //   flex: 1;
+  //   justify-content: center;
+  //   flex-wrap: wrap;
+  //   min-width: 400px;
+  // }
+  
+  
 }
+  
+
 
 .remove- {
   &padding {
@@ -127,4 +143,12 @@ h1, h2, h3, h4, h5, h6 {
   &:hover {
     cursor: pointer;
   }
+}
+
+a {
+  // display: inline;
+  padding: 0;
+  margin: 0;  
+
+  // float: left;
 }
