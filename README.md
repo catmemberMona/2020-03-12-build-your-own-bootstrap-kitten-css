@@ -2,11 +2,11 @@
 
 ## About the challenge
 
-This is a weekly learnathon designed by MintBean for those that are new and/or those that want to improve their web development skills.\
+This is a weekly learnathon designed by MintBean for those that are new and/or those that want to improve their web development skills.
 
-This weeks challenge is to create a css framework similar to bootstrap.\
+This weeks challenge is to create a css framework similar to bootstrap.
 
-https://www.mintbean.io/meets/4b9cd41c-4a27-4c08-a493-3095f9fe2b20?template=meet\
+https://www.mintbean.io/meets/4b9cd41c-4a27-4c08-a493-3095f9fe2b20?template=meet
 
 
 ## BYOB.css
