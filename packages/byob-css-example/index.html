@@ -7,21 +7,25 @@
     <title>Document</title>
     <script src="index.js" defer ></script>
   </head>
-  <body class="">
+  <body class="addHelperBorders">
+    <!-- Links area  -->
+    <div style="position:fixed; height: 400px; width: 140px; margin: 30px; margin-top: 180px; ">
+      <button class="btn btn-backgroundColor-primary" onclick="window.location.href='#project-description'">Project Description</button>
+      <button class="btn btn-backgroundColor-primary" onclick="window.location.href='#about-me'">About Me</button>
+      <button class="btn btn-backgroundColor-primary" onclick="window.location.href='#layout'">Layout</button>
+      <button class="btn btn-backgroundColor-primary" onclick="window.location.href='#fonts'">Fonts</button>
+      <button class="btn btn-backgroundColor-primary" onclick="window.location.href='#buttons'">Buttons</button>
+    </div>
     <!-- Title / link to kitchen sink / about section  -->
-    <div >
+    <div id='project-description'>
       <!-- Title / link to kitchen  sink Section -->
       <div >
         <!-- Title Section  -->
-        <div  >
+        <div >
           <h1 class="lg">Soft Meow CSS</h1>
         </div>
-        <!-- Link Section -->
-        <div>
-          <button class="btn">I am button</button>
-        </div>
-      </div>
       
+      </div>
       <!-- About CSS framework Section  -->
       <div>
         <!-- Pre-made stylings available -->
@@ -40,9 +44,10 @@
         </div>
       </div>
     </div>
+   
     
     <!-- About me Section  -->
-    <div>
+    <div id="about-me">
       <div>
         Created by me 
       </div>
@@ -68,7 +73,7 @@
     <!-- Kitchen Sink Examples -->
     <div>
       <!-- Layout Section  -->
-      <div>
+      <div id="layout">
         <h1 class='sm'>Layout</h1>
         <div>
           <h1 class='xxs'>FlexBox</h1>
@@ -90,7 +95,7 @@
       </div>
 
       <!-- Font Section  -->
-      <div>
+      <div id="fonts">
         <h1 class="sm">Fonts</h1>
         <div>
           <div>
@@ -114,7 +119,7 @@
           <p>Change the size of the fonts by adding these class selectors (xlg, lg, md, sm, xs, xxs). Can use tags from (h1-h6). Will have padding and margin. </p>
         </div>
         <div>
-          <h1 class="xxs">Heading</h1>
+          <h1 class="xxs">Headings</h1>
           <div>
             <h1 class="xlg">Extra Large</h1>
             <h1 class='lg'>Large</h2>
@@ -129,26 +134,26 @@
           <div>
             <p class="xlg">Extra Large</p>
             <p class='lg'>Large</p>
-              <p class='md'>Medium</p>
-                <p class='sm'>Small</p>
-                  <p class='xs'>Extra Small</p>
-                    <p class='xxs'>Extra Extra Small</p>
+            <p class='md'>Medium</p>
+            <p class='sm'>Small</p>
+            <p class='xs'>Extra Small</p>
+            <p class='xxs'>Extra Extra Small</p>
           </div>
         </div>
       </div>
-      <div>
+      <div id="buttons">
         <h1 class="sm">Buttons</h1>
         <div class='row'>
           <button class='btn'>Normal Button</button>
-          <button class='btn btn-backgroundColor-primary'> primary </button>
-          <button class='btn btn-backgroundColor-secondary'> secondary </button>
-          <button class='btn btn-backgroundColor-success'> success </button>
-          <button class='btn btn-backgroundColor-danger'> danger </button>
-          <button class='btn btn-backgroundColor-warning'> warning </button>
-          <button class='btn btn-backgroundColor-info'> info </button>
-          <button class='btn btn-backgroundColor-light, fontColor-dark'> light </button>
-          <button class='btn btn-backgroundColor-dark'> dark </button>
-          <button class='btn btn-backgroundColor-muted'> muted </button>
+          <button class='btn btn-backgroundColor-primary'> Primary </button>
+          <button class='btn btn-backgroundColor-secondary'> Secondary </button>
+          <button class='btn btn-backgroundColor-success'> Success </button>
+          <button class='btn btn-backgroundColor-danger'> Danger </button>
+          <button class='btn btn-backgroundColor-warning'> Warning </button>
+          <button class='btn btn-backgroundColor-info'> Info </button>
+          <button class='btn btn-backgroundColor-light'> Light </button>
+          <button class='btn btn-backgroundColor-dark'> Dark </button>
+          <button class='btn btn-backgroundColor-muted'> Muted </button>
         </div>
       </div>
     </div>

@@ -45,4 +45,5 @@ https://sass-lang.com/documentation/at-rules/control/if\
 https://www.youtube.com/watch?v=Zz6eOVaaelI\
 https://www.youtube.com/watch?v=XanhwddQ-PM\
 https://www.youtube.com/watch?v=QHRTiU2a3fg&t=304s\
-https://onedebos.wordpress.com/2019/08/01/how-to-setup-sass-in-vscode/
+https://onedebos.wordpress.com/2019/08/01/how-to-setup-sass-in-vscode/\
+https://css-tricks.com/having-a-little-fun-with-custom-focus-styles/
