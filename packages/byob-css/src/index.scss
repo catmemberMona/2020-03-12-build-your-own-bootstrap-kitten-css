@@ -10,6 +10,12 @@
   padding: 0;
 }
 
+body {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
 body * {
   box-sizing: border-box; 
   font-size: 1rem;
@@ -24,8 +30,8 @@ body * {
     flex: 1;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 100%;
-    // min-width: 400px;
+    max-width: 100%;  
+    min-width: 100px;
 
  
   }
@@ -135,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 
   color: #212529;
-  background-color: transparent;
+  background-color: white;
   &:hover {
     cursor: pointer;
   }

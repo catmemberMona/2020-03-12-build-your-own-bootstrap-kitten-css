@@ -8,89 +8,104 @@
     <script src="index.js" defer ></script>
   </head>
 
-  <body class="">
+  <body class=""> <!-- addHelperBorders -->
+    <!-- Title / link to kitchen  sink Section -->
+    <div id='project-description'>
+      <!-- Title Section  -->
+      <div >
+        <h1 class="xlg" style="color: #38A5F8; ">Soft Meow CSS</h1>
+      </div>
+    
+    </div>
     <div class="row" style="display: flex;">
       <!-- Links area  -->
-      <div style="flex: 1">
-        <div style="position:fixed; top: 150px; left: 15px; ">
-          <button class="btn" onclick="window.location.href='#project-description'">Project
-            Description</button>
+      <div style="flex: 2">
+        <div class='row' style="position:fixed; top: 250px; left: 15px; max-width: 250px;">
+          <button class="btn" onclick="window.location.href='#project-description'">Project Description</button>
           <button class="btn btn-backgroundColor-info" onclick="window.location.href='#about-me'">About Me</button>
           <button class="btn btn-backgroundColor-info" onclick="window.location.href='#layout'">Layout</button>
           <button class="btn btn-backgroundColor-info" onclick="window.location.href='#fonts'">Fonts</button>
           <button class="btn btn-backgroundColor-success" onclick="window.location.href='#buttons'">Buttons</button>
         </div>
       </div>
-      <div style="flex: 10">
+
+      <!-- Padding space  -->
+      <div style="flex: 1">
+
+      </div>
+      <div style="flex: 10;">
         <!-- Title / link to kitchen sink / about section  -->
-        <div id='project-description'>
-          <!-- Title / link to kitchen  sink Section -->
-          <div>
-            <!-- Title Section  -->
-            <div>
-              <h1 class="lg">Soft Meow CSS</h1>
-            </div>
+        <div >
       
-          </div>
+         
           <!-- About CSS framework Section  -->
-          <div>
+          <div style="margin-right: 5em;">
             <!-- Pre-made stylings available -->
+            <h1 class="xs">About Soft Meow CSS</h1>
             <div>
-              About Nice things to write Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore
-              et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h1 class="xxs">What we include</h1>
+              <div>
+                <p>One of the main features that I wanted to make was for the layout. This is because it is one of the things I struggle with the most while creating web pages. 
+                  With flexbox, I had a difficult time with positioning the children or descendants of elements while banging my head on why an element stayed in the same position no matter what I tried. 
+                  One thing that helped me with this was adding borders to every thing. 
+                  I made all div elements into flex containers in order to make sure that child elements position the way I wanted on the layout.</p>
+                <p>I added different template font sizes in order to quickly choose a size that would looks presentable.</p>
+                <p>The last component I worked on was buttons. 
+                  I love round buttons and one issue I used to have was having a rectangle appear after clicking on the button. 
+                  These buttons have removed the rectangle and added a more molded outline after clicking.</p>
+              </div>
+            </div>
+            <div >
+              <h1 class='xxs'>Challenges</h1>
+              <div>
+                <p>One of the most challenging aspects of this challenge was making the page more responsive to view size changes. I am still struggling with this aspect and will continue to figure it out.</p>
+                <p>The second challenge was the positioning of content after adding a fixed container.</p>
+              </div>
+              
             </div>
             <!-- MintBean Stuff  -->
+            <h1 class="xs">Mintbean</h1>
             <div>
-              MintBean Nice things to write Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore
-              et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exerc
+              <p>This is a weekly learnathon designed by MintBean for those that are new and/or those that want to improve their web
+              development skills.</p>
+              <p>This weeks challenge is to create a css framework similar to bootstrap.</p>
+              <p>Learn more about this week's <a href="https://www.mintbean.io/meets/4b9cd41c-4a27-4c08-a493-3095f9fe2b20?template=meet">MintBean Challenge</a></p>
             </div>
           </div>
         </div>
       
       
         <!-- About me Section  -->
-        <div id="about-me">
-          <div>
+        <div id="about-me" style="margin-right: 5em;">
+          <h1 class="xs">
             Created by me
-          </div>
+          </h1>
           <div class='row'>
             <!-- Image of me  -->
-            <div>
-              MEEEEEEEEE MONAAAAA
+            <div style="padding: 5em;  min-width: 200px; align-content: center;">
+              
+              <img src="./me.jpg" style="border: 1px solid darkgrey; border-radius: 50%; min-width: 200px;">
+              <h1 class="xs" style="align-self: center;">Mona Zheng</h1>  
             </div>
             <div>
               <div>
-                Nice things to write Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-              <div>
-                tech used
+                <p>This is my second learnathon with Mintbean. You can check out my first one, <a href='https://memorymaddening.herokuapp.com/'>Memory Maddening</a>.</p> 
+                <p>I learned a lot about myself during this project, which I think will be helpful with future projects.</p>
+                <p>Thank you for visiting!</p>
               </div>
             </div>
           </div>
         </div>
       
         <!-- Kitchen Sink Examples -->
-        <div>
+        <div >
           <!-- Layout Section  -->
           <div id="layout">
             <h1 class='sm'>Layout</h1>
             <div>
               <h1 class='xxs'>FlexBox</h1>
               <div>
-                <p>Automatically uses flexbox for the entire layout. All tags/elements will be laid vertically as default.</p>
+                <p>Automatically uses flexbox for all the div elements. All descendants will be laid vertically as default.</p>
                 <p>To change the direction of the children inside an element, add 'row' to the element's class.</p>
                 <p>To modify the position, size, and alignment, use the flexbox properties.</p>
                 <p>This <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox guide</a> would be helpful
@@ -100,8 +115,9 @@
             <div>
               <h1 class="xxs">Borders</h1>
               <div>
-                <p>Layout borders appear on default. They are used to better visualize the positions of the content.</p>
-                <p>Add in the body element's class attribute '.resetBorder' to remove layout borders</p>
+                <p>Layout helper borders will not appear on default.</p>
+                <p>To do so, add in the body element's class attribute 'addHelperBorders'.</p>
+                <p>These are meant to be used to help the creater visualize the layout for easier manipulation of flexbox.</p>
               </div>
             </div>
           </div>
@@ -128,7 +144,7 @@
           <div>
             <h3 class="xs">Font Sizes</h3>
             <div>
-              <p>Change the size of the fonts by adding these class selectors (xlg, lg, md, sm, xs, xxs). Can use tags from
+              <p>Change the size of the fonts by adding these class selectors (xlg, lg, md, sm, xs, xxs). Headings can use any tags from
                 (h1-h6). Will have padding and margin. </p>
             </div>
             <div>
